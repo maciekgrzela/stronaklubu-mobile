@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Aplikacja Klubu</string>
+    <string name="title_activity_startup">StartupActivity</string>
+    <string name="login_fragment_label">Login Fragment</string>
+    <string name="register_fragment_label">Register Fragment</string>
+    <string name="news_fragment_label">News Fragment</string>
+    <string name="tickets_fragment_label">Tickets Fragment</string>
+
+    <string name="login_fragment_toolbar_title">Zaloguj się</string>
+    <string name="register_fragment_toolbar_title">Utwórz nowe konto</string>
+    <string name="news_toolbar_title">Aktualności</string>
+
+    <string name="email">E-mail</string>
+    <string name="first_name">Imię</string>
+    <string name="last_name">Nazwisko</string>
+    <string name="password">Hasło</string>
+
+    <string name="startup_logo">Śląsk Wrocław</string>
+
+    <string name="login_button">Zaloguj</string>
+    <string name="register_button">Zarejestruj</string>
+
+    <string name="have_not_account">Nie masz konta? Zarejestruj się</string>
+    <string name="return_to_login">Powrót do logowania</string>
+
+    <string name="nav_header_title">Śląsk Wrocław</string>
+    <string name="nav_header_subtitle">Aplikacja klubu piłkarskiego</string>
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_news">Aktualności</string>
+    <string name="menu_tickets">Moje bilety</string>
+    <string name="menu_goto_stadium">Prowadź na stadion - Nawigacja</string>
+    <string name="menu_how_to_get">Prowadź na stadion - Kom. miejska</string>
+    <string name="menu_events">Przypominaj o wydarzeniach</string>
+    <string name="menu_narrative">Ustawienia relacji LIVE</string>
+
+    <string name="menu_home">Najnowsze aktualności</string>
+
+    <string name="action_logout">Wyloguj się</string>
+
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="api_url">http://192.168.43.19:5000/stronaklubu/backend/api</string>
+    <string name="assets_img_url">http://192.168.43.19:5000/stronaklubu/img</string>
+    <string name="how_to_get_url">https://jakdojade.pl/wroclaw/trasa/</string>
+    <string name="title_activity_news_drawer">NewsDrawerActivity</string>
+
+    <string name="stadium_latitude">16.9416049</string>
+    <string name="stadium_longitude">51.1412206</string>
+    <string name="stadium_name">Stadion Śląska</string>
+    <string name="stadium_stop_name">Stadion Miejski We Wrocławiu</string>
+
+</resources>

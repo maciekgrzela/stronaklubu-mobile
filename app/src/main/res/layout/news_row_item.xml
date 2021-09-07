@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_marginTop="5dp"
+    android:padding="8dp"
+    android:id="@+id/news_container">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_item_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/news_image_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/newsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail"
+                android:paddingLeft="@dimen/news_title_padding"
+                android:paddingRight="@dimen/news_title_padding"
+                android:paddingTop="@dimen/news_title_padding"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/news_title_size" />
+
+            <TextView
+                android:id="@+id/newsAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/newsTitle"
+                android:paddingLeft="@dimen/news_title_padding"
+                android:paddingRight="@dimen/news_title_padding"
+                android:textSize="@dimen/news_author_size" />
+
+            <TextView
+                android:id="@+id/newsDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/newsAuthor"
+                android:paddingBottom="@dimen/news_author_padding_bottom"
+                android:paddingLeft="@dimen/news_title_padding"
+                android:paddingRight="@dimen/news_title_padding"
+                android:textSize="@dimen/news_author_size" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
